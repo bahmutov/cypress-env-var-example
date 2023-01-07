@@ -1,0 +1,33 @@
+{
+  "name": "cypress-env-var-example",
+  "version": "1.0.0",
+  "description": "Example moving CYPRESS_ variable to plain operating system env variable",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server",
+    "test": "cypress run",
+    "cy:open": "cypress open",
+    "dev": "start-test 5000 cy:open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/cypress-env-var-example.git"
+  },
+  "keywords": [
+    "cypress-example"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/cypress-env-var-example/issues"
+  },
+  "homepage": "https://github.com/bahmutov/cypress-env-var-example#readme",
+  "devDependencies": {
+    "cypress": "^12.3.0",
+    "prettier": "^2.8.2",
+    "start-server-and-test": "^1.15.2"
+  },
+  "dependencies": {
+    "serve-handler": "^6.1.5"
+  }
+}
