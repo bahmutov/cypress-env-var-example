@@ -1,3 +1,8 @@
 <body>
   <h1>Example</h1>
+  <script>
+    if (window.Cypress) {
+      console.log('App has bearer', Cypress.env('bearer'))
+    }
+  </script>
 </body>

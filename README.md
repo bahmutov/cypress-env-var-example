@@ -2,6 +2,8 @@
 
 > Example moving CYPRESS\_ variable to plain operating system env variable
 
+Read the blog post [Use Cypress Task To Avoid Cypress Env Variable](https://glebbahmutov.com/blog/cypress-env-variable/).
+
 ## Small print
 
 Author: Gleb Bahmutov &lt;gleb.bahmutov@gmail.com&gt; &copy; 2023
