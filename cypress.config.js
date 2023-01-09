@@ -8,7 +8,6 @@ module.exports = defineConfig({
     baseUrl: 'http://localhost:5000',
     viewportWidth: 500,
     viewportHeight: 500,
-    supportFile: false,
     fixturesFolder: false,
     setupNodeEvents(on, config) {
       // implement node event listeners here

@@ -2,7 +2,19 @@
   <h1>Example</h1>
   <script>
     if (window.Cypress) {
-      console.log('App has bearer', Cypress.env('bearer'))
+      if (Cypress.env) {
+        console.log('App has bearer', Cypress.env('bearer'))
+      } else {
+        console.log('there is no Cypress.env')
+      }
+
+      if (window.Cypress.cy) {
+        window.Cypress.cy.now('task', 'getSecret').then((s) => {
+          console.log('App got secret %o', s)
+        })
+      } else {
+        console.log('there is no Cypress.cy')
+      }
     }
   </script>
 </body>
